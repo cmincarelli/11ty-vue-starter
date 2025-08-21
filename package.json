@@ -1,0 +1,29 @@
+{
+  "name": "11ty-vue-starter",
+  "version": "1.0.0",
+  "description": "Modern 11ty starter with Vue 3, Vite, and comprehensive testing",
+  "main": ".eleventy.js",
+  "type": "module",
+  "scripts": {
+    "dev": "eleventy --serve --watch",
+    "build": "eleventy",
+    "clean": "rm -rf _site"
+  },
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "vue",
+    "vite",
+    "static-site"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "cross-env": "^10.0.0",
+    "dotenv": "^17.2.1"
+  }
+}
